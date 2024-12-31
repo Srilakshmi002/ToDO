@@ -1,0 +1,62 @@
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.top-right p{
+    text-align: right;
+    font-size: medium;
+}
+.top-right button {
+    background-color: darkslateblue;
+    position: absolute;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    top: 80px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.top-right input[type="text"] {
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+    padding: 10px;
+    position: absolute;
+    top: 160px;
+    right: 330px;
+}
+.top-left input[type="checkbox"] {
+    top: 150px;
+    left: 30px;
+    margin: 0;
+}
+.bottom-right button {
+    background-color: darkslateblue;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    bottom: 280px;
+    right: 10px;
+    padding: 10px;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.task-checkbox {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#listitem {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
